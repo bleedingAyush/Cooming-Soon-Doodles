@@ -1,0 +1,63 @@
+
+/*=============================================
+=            Spacing            =
+=============================================*/
+
+.space-pt {
+    &--25 {
+        padding-top: 25px;
+    }
+    &--30 {
+        padding-top: 30px;
+    }
+}
+
+.space-pb {
+    &--25 {
+        padding-bottom: 25px;
+    }
+    &--30 {
+        padding-bottom: 30px;
+    }
+}
+
+.space-mt {
+    &--10 {
+        margin-top: 10px;
+    }
+    &--r30 {
+        margin-top: 30px;
+        @media #{$extra-small-mobile} {
+            margin-top: 15px;
+        }
+    }
+    &--50 {
+        margin-top: 50px;
+    }
+    &--70 {
+        margin-top: 70px;
+    }
+    &--80 {
+        margin-top: 80px;
+    }
+}
+
+.space-mb {
+    &--10 {
+        margin-bottom: 10px;
+    }
+    &--20 {
+        margin-bottom: 20px;
+    }
+    &--30 {
+        margin-bottom: 30px;
+    }
+    &--35 {
+        margin-bottom: 35px;
+    }
+    &--50 {
+        margin-bottom: 50px;
+    }
+}
+
+/*=====  End of Spacing  ======*/

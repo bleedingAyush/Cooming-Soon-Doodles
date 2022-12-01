@@ -1,0 +1,106 @@
+// project specific variables
+
+// colors
+$white: #FFFFFF;
+$black: #000000;
+$grey: #899595;
+$grey--two: #6D7485;
+$grey--three: #DCDCDC;
+$red--one: #FF3E52;
+$red--two: #FF6B6B;
+$red--three: #FCEEEE;
+$red--four: #C2B3B3;
+$red--five: #C1A8A8;
+$red--six: #9F9F9F;
+$red--seven: #C1A6A6;
+$red--eight: #30181B;
+$red--nine: #B77D7D;
+$red--ten: #B2B2B2;
+$red--eleven: #FF527A;
+$red--twelve: #E4C2CA;
+$red--thirteen: #D6AFB9;
+$red--fourteen: #AFA8AA;
+$red--fifteen: #474141;
+$red--sixteen: #6B6B6B;
+$red--seventeen: #D9CBCB;
+$red--eighteen: #D8CECE;
+$blue--one: #1E1943;
+$blue--two: #222F3E;
+$blue--three: #2B5074;
+$blue--four: #848E98;
+$blue--five: #2E86DE;
+$blue--six: #D9E2EB;
+$blue--seven: #96A7B8;
+$blue--eight: #C0D7EE;
+$blue--nine: #6C5CE7;
+$blue--ten: #78798D;
+$blue--eleven: #151633;
+$blue--twelve: #475668;
+$blue--thirteen: #89919A;
+$blue--fourteen: #8E8BA2;
+$blue--fifteen: #3A96FF;
+$blue--sixteen: #62629F;
+$blue--seventeen: #706D8A;
+$blue--eighteen: #CBC5F8;
+$blue--nineteen: #CCC8EB;
+$blue--twenty: #425577;
+$blue--twentyOne: #E2EDF9;
+$blue--twentyTwo: #99A1B1;
+$blue--twentyThree: #B1C1CE;
+$blue--twentyFour: #3877F5;
+$blue--twentyFive: #E6EBF6;
+$blue--twentySix: #A7B5CF;
+$blue--twentySeven: #C7D1E4;
+$green--one: #02CECF;
+$green--two: #2C4E4E;
+$green--three: #8D9D9E;
+$green--four: #CCE0E1;
+$green--five: #A7BABB;
+$green--six: #324B15;
+$green--seven: #D6FFA5;
+$green--eight: #9EC76C;
+$green--nine: #063030;
+$green--ten: #EBF5F6;
+$green--eleven: #BDDDE1;
+$green--twelve: #2AB7B8;
+$green--thirteen: #2AB1B2;
+$green--fourteen: #2AEEEF;
+$orange--one: #FA983A;
+$theme-color--default: $black;
+$theme-color--heading: $black;
+$transition--default: all 0.3s;
+
+// fonts
+$roboto: "Roboto", sans-serif;
+$fira-sans: "Fira Sans", sans-serif;
+$oswald: "Oswald", sans-serif;
+$poppins: "Poppins", sans-serif;
+$playfair-display: "Playfair Display", serif;
+$neuzeitgrow01: "NeuzeitGroW01", sans-serif;
+$nunito-sans: "Nunito Sans", sans-serif;
+$montserrat: "Montserrat", sans-serif;
+$steelfish-eb: "Steelfish Eb", sans-serif;
+$steelfish-b: "Steelfish Rg", sans-serif;
+$rockwell: "Rockwell";
+$rockwell-bold: "Rockwell Bold";
+$perpetua: "Perpetua";
+$perpetua-bold: "Perpetua Bold";
+
+// body text
+$body-text-color: $black;
+$body-font-weight: 400;
+$body-line-height: 1;
+$body-font-size: 16px;
+$body-bg-color: $white;
+
+// heading text
+$heading-font-weight: 500;
+
+// responsive variables
+$extra-large-desktop: "only screen and (min-width: 1500px)";
+$large-desktop: "only screen and (min-width: 1200px) and (max-width: 1499px)";
+$small-desktop: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$extra-large-mobile: "only screen and (min-width: 768px) and (max-width: 991px)";
+$large-mobile: "only screen and (max-width: 767px)";
+$small-mobile: "only screen and (max-width: 575px)";
+$extra-small-mobile: "only screen and (max-width: 479px)";

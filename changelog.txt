@@ -1,0 +1,7 @@
+Date: 29 June, 2021
+version: 2.0
+===========================
+
+1. React version updated to 17.0.2
+2. Bootstrap version updated to 4.6.0
+

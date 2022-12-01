@@ -1,0 +1,284 @@
+/*=============================================
+=            coming soon eighteen            =
+=============================================*/
+
+/* content */
+.cs-18-content {
+    &__subtitle {
+        font-family: $roboto;
+        font-size: 24px;
+        font-weight: 400;
+
+        color: $blue--twenty;
+
+        @media #{$extra-small-mobile} {
+            font-size: 20px;
+
+            text-align: center;
+        }
+    }
+
+    &__title {
+        font-family: $roboto;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.25;
+
+        color: $blue--twenty;
+        @media #{$large-desktop} {
+            font-size: 50px;
+        }
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            font-size: 40px;
+        }
+        @media #{$small-mobile} {
+            font-size: 30px;
+        }
+
+        @media #{$extra-small-mobile} {
+            font-size: 24px;
+
+            text-align: center;
+        }
+    }
+}
+
+/* countdown */
+.cs-18-countdown {
+    font-family: $roboto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    @media #{$small-mobile} {
+        flex-wrap: nowrap;
+
+        margin-bottom: -30px;
+    }
+
+    @media #{$extra-small-mobile} {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .single-countdown {
+        flex-basis: 150px;
+
+        margin-right: 50px;
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            flex-basis: 100px;
+        }
+
+        @media #{$large-mobile} {
+            margin-right: 25px;
+        }
+
+        @media #{$small-mobile} {
+            flex-basis: 100px;
+
+            margin-right: 25px;
+            margin-bottom: 30px;
+        }
+
+        @media #{$extra-small-mobile} {
+            flex-basis: 100px;
+
+            margin-right: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+        &__time {
+            font-size: 60px;
+            font-weight: 400;
+
+            display: block;
+
+            margin-bottom: 15px;
+            padding: 45px 0;
+
+            color: $blue--twenty;
+            border-radius: 50%;
+            background-color: $blue--twentyOne;
+            box-shadow: -3px -3px 25px $white, 2px 2px 20px $blue--twentyThree;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 35px;
+
+                padding: 32px 0;
+            }
+
+            @media #{$small-mobile} {
+                font-size: 25px;
+
+                padding: 37px 0;
+            }
+
+            @media #{$extra-small-mobile} {
+                padding: 38px 0;
+            }
+        }
+        &__text {
+            font-size: 16px;
+
+            display: inline-block;
+
+            margin-top: 15px;
+            padding: 3px 0 3px 25px;
+
+            text-transform: uppercase;
+
+            color: $blue--twenty;
+            background-repeat: no-repeat;
+            background-position: center left;
+            @media #{$small-mobile} {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* subscription */
+.cs-18-subscription-wrapper {
+    .mc-newsletter-form {
+        @media #{$extra-small-mobile} {
+            text-align: center;
+        }
+        input[type="email"] {
+            font-family: $roboto;
+            font-size: 16px;
+
+            width: 390px;
+            max-width: 100%;
+            margin-right: 25px;
+            padding: 25px 30px;
+
+            color: $blue--twenty;
+            border: none;
+            border-radius: 35px;
+            background-color: transparent;
+            box-shadow: -3px -3px 25px $white, 2px 2px 20px $blue--twentyThree;
+
+            @media #{$small-desktop,
+            $extra-large-mobile} {
+                width: 300px;
+                margin-right: 5px;
+                padding: 20px 30px;
+            }
+
+            @media #{$large-mobile} {
+                margin-right: 0;
+                margin-bottom: 15px;
+                padding: 20px 30px;
+            }
+        }
+
+        button {
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 500;
+
+            padding: 25px 65px;
+
+            color: $blue--twenty;
+            border: none;
+            border-radius: 35px;
+            background: none;
+            background-color: $blue--twentyOne;
+            box-shadow: -3px -3px 25px $white, 2px 2px 20px $blue--twentyThree;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 16px;
+
+                padding: 22px 40px;
+            }
+        }
+        ::placeholder {
+            opacity: 1;
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $blue--twentyTwo;
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: $blue--twentyTwo;
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: $blue--twentyTwo;
+        }
+    }
+
+    .mailchimp-alerts {
+        font-family: $roboto;
+        line-height: 1.3;
+
+        color: $blue--twentyTwo;
+        a {
+            &:hover {
+                color: $blue--twenty;
+            }
+        }
+    }
+}
+
+/* social icon*/
+.cs-18-social-icons {
+    & > li {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+        & > a {
+            svg {
+                * {
+                    transition: $transition--default;
+
+                    stroke: $blue--twentyTwo;
+                }
+            }
+            &:hover {
+                svg {
+                    * {
+                        stroke: $blue--twenty;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$large-mobile} {
+        margin-bottom: 15px;
+    }
+}
+
+/* copyright text */
+.cs-18-copyright {
+    font-family: $roboto;
+
+    color: $blue--twentyTwo;
+
+    @media #{$large-mobile} {
+        text-align: center;
+    }
+
+    a {
+        &:hover {
+            color: $blue--twenty;
+        }
+    }
+}
+
+/*=====  End of coming soon eighteen  ======*/

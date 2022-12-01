@@ -1,0 +1,268 @@
+/*=============================================
+=            coming soon twenty            =
+=============================================*/
+
+/* content */
+.cs-20-content {
+    &__subtitle {
+        font-family: $oswald;
+        font-size: 30px;
+        font-weight: 300;
+
+        color: $blue--twentyFour;
+
+        @media #{$extra-small-mobile} {
+            font-size: 20px;
+        }
+    }
+
+    &__title {
+        font-family: $oswald;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 1.25;
+
+        color: $black;
+        @media #{$large-desktop} {
+            font-size: 50px;
+        }
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            font-size: 40px;
+        }
+        @media #{$small-mobile} {
+            font-size: 30px;
+        }
+
+        @media #{$extra-small-mobile} {
+            font-size: 24px;
+        }
+    }
+}
+
+/* countdown */
+.cs-20-countdown {
+    font-family: $oswald;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    @media #{$small-mobile} {
+        margin-bottom: -30px;
+    }
+    .single-countdown {
+        flex-basis: 100px;
+
+        margin-right: 30px;
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            flex-basis: 90px;
+        }
+
+        @media #{$extra-small-mobile} {
+            flex-basis: 70px;
+        }
+
+        @media #{$small-mobile} {
+            margin-right: 15px;
+            margin-bottom: 30px;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+        &__time {
+            font-size: 48px;
+            font-weight: 600;
+
+            display: block;
+
+            margin-bottom: 15px;
+            padding: 25px 0;
+
+            color: $blue--twentyFour;
+            border: 1px solid $blue--twentyFive;
+            border-radius: 15px;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 35px;
+            }
+
+            @media #{$small-mobile} {
+                font-size: 35px;
+            }
+
+            @media #{$extra-small-mobile} {
+                font-size: 25px;
+            }
+        }
+        &__text {
+            font-size: 18px;
+            font-weight: 300;
+
+            color: $blue--two;
+
+            @media #{$extra-small-mobile} {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* subscription */
+.cs-20-subscription-wrapper {
+    .mc-newsletter-form {
+        input[type="email"] {
+            font-family: $oswald;
+            font-size: 16px;
+
+            width: 450px;
+            max-width: 100%;
+            margin-right: 25px;
+            padding: 22px 30px;
+
+            color: $blue--twentySix;
+            border: 1px solid $blue--twentyFive;
+            border-radius: 10px;
+            background-color: transparent;
+
+            @media #{$small-desktop,
+            $extra-large-mobile} {
+                width: 300px;
+                margin-right: 5px;
+                padding: 20px 30px;
+            }
+
+            @media #{$large-mobile} {
+                margin-right: 0;
+                margin-bottom: 15px;
+                padding: 20px 30px;
+            }
+        }
+
+        button {
+            font-family: $oswald;
+            font-size: 18px;
+            font-weight: 500;
+
+            padding: 25px 65px;
+
+            color: $white;
+            border: none;
+            border-radius: 10px;
+            background: none;
+            background-color: $blue--twentyFour;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 16px;
+
+                padding: 22px 40px;
+            }
+
+            &:hover {
+                background-color: darken($color: $blue--twentyFour, $amount: 10);
+            }
+        }
+        ::placeholder {
+            opacity: 1;
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $blue--twentySix;
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: $blue--twentySix;
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: $blue--twentySix;
+        }
+    }
+
+    .mailchimp-alerts {
+        font-family: $oswald;
+        line-height: 1.3;
+
+        color: $blue--twentySix;
+        a {
+            &:hover {
+                color: $blue--twentyFour;
+            }
+        }
+    }
+}
+
+/* social icon*/
+.cs-20-social-icons {
+    & > li {
+        margin-right: 20px;
+        & > a {
+            position: relative;
+
+            width: 50px;
+            height: 50px;
+
+            border: 1px solid $blue--twentySeven;
+            border-radius: 50%;
+            background-color: transparent;
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+
+                transform: translate(-50%, -50%);
+                * {
+                    transition: $transition--default;
+
+                    fill: $blue--twentySeven;
+                }
+            }
+
+            &:hover {
+                border-color: $blue--twentyFour;
+                background-color: $blue--twentyFour;
+                svg {
+                    * {
+                        fill: $white;
+                    }
+                }
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media #{$large-mobile} {
+        margin-top: 15px;
+    }
+}
+
+/* copyright text */
+.cs-20-copyright {
+    font-family: $oswald;
+
+    color: $blue--twentySix;
+
+    @media #{$large-mobile} {
+        text-align: center;
+    }
+
+    a {
+        &:hover {
+            color: $blue--twentyFour;
+        }
+    }
+}
+
+/*=====  End of coming soon twenty  ======*/

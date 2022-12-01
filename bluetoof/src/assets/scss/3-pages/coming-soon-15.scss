@@ -1,0 +1,261 @@
+/*=============================================
+=            coming soon fifteen            =
+=============================================*/
+
+/* content */
+.cs-15-content {
+    &__subtitle {
+        font-family: $poppins;
+        font-size: 36px;
+        font-weight: 400;
+
+        color: $blue--seventeen;
+
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            font-size: 26px;
+        }
+        @media #{$extra-small-mobile} {
+            font-size: 20px;
+        }
+    }
+
+    &__title {
+        font-family: $poppins;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.25;
+
+        color: $blue--one;
+        @media #{$large-desktop} {
+            font-size: 50px;
+        }
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            font-size: 40px;
+        }
+        @media #{$small-mobile} {
+            font-size: 30px;
+        }
+
+        @media #{$extra-small-mobile} {
+            font-size: 24px;
+        }
+    }
+}
+
+/* countdown */
+.cs-15-countdown {
+    font-family: $poppins;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    @media #{$small-mobile} {
+        margin-bottom: -30px;
+    }
+    .single-countdown {
+        flex-basis: 100px;
+
+        margin-right: 30px;
+        @media #{$small-desktop,
+        $extra-large-mobile,
+        $large-mobile} {
+            flex-basis: 90px;
+        }
+
+        @media #{$extra-small-mobile} {
+            flex-basis: 70px;
+        }
+
+        @media #{$small-mobile} {
+            margin-right: 15px;
+            margin-bottom: 30px;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+        &__time {
+            font-size: 48px;
+            font-weight: 600;
+
+            display: block;
+
+            margin-bottom: 15px;
+            padding: 25px 0;
+
+            color: $blue--one;
+            border: 1px solid $blue--eighteen;
+            border-radius: 15px;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 35px;
+            }
+
+            @media #{$small-mobile} {
+                font-size: 35px;
+            }
+
+            @media #{$extra-small-mobile} {
+                font-size: 25px;
+            }
+        }
+        &__text {
+            font-size: 18px;
+            font-weight: 300;
+
+            color: $blue--two;
+
+            @media #{$extra-small-mobile} {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+/* subscription */
+.cs-15-subscription-wrapper {
+    .mc-newsletter-form {
+        input[type="email"] {
+            font-family: $roboto;
+            font-size: 16px;
+
+            width: 450px;
+            max-width: 100%;
+            margin-right: 25px;
+            padding: 25px 30px;
+
+            color: $red--ten;
+            border: 1px solid $blue--six;
+            border-radius: 10px;
+            background-color: transparent;
+
+            @media #{$small-desktop,
+            $extra-large-mobile} {
+                width: 300px;
+                margin-right: 5px;
+                padding: 20px 30px;
+            }
+
+            @media #{$large-mobile} {
+                margin-right: 0;
+                margin-bottom: 15px;
+                padding: 20px 30px;
+            }
+        }
+
+        button {
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 500;
+
+            padding: 25px 65px;
+
+            color: $white;
+            border: none;
+            border-radius: 10px;
+            background: none;
+            background-color: $blue--nine;
+
+            @media #{$small-desktop,
+            $extra-large-mobile,
+            $large-mobile} {
+                font-size: 16px;
+
+                padding: 22px 40px;
+            }
+
+
+            &:hover {
+                background-color: darken($color: $blue--nine, $amount: 10);
+            }
+        }
+        ::placeholder {
+            opacity: 1;
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $red--ten;
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: $red--ten;
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: $red--ten;
+        }
+    }
+
+    .mailchimp-alerts {
+        font-family: $roboto;
+        line-height: 1.3;
+
+        color: $red--ten;
+        a {
+            &:hover {
+                color: $blue--nine;
+            }
+        }
+    }
+}
+
+
+/* social icon*/
+.cs-15-social-icons {
+    & > li {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+        & > a {
+            svg {
+                * {
+                    transition: $transition--default;
+
+                    stroke: $blue--sixteen;
+                }
+            }
+            &:hover {
+                svg {
+                    * {
+                        stroke: $blue--nine;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$large-mobile} {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* copyright text */
+.cs-15-copyright {
+    font-family: $roboto;
+
+    color: $blue--nineteen;
+
+    @media #{$large-mobile} {
+        text-align: center;
+    }
+
+    a {
+        &:hover {
+            color: $blue--nine;
+        }
+    }
+}
+
+/*=====  End of coming soon fifteen  ======*/
