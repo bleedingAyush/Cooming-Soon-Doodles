@@ -18,3 +18,5 @@ If you want to modify the Countdown Date, Go inside ComingSoon12.js and on line 
 If you want to modify the MailChimp url, Go inside ComingSoon12.js and on line **131** modify the url.
 
 **Note**: The ComingSoon12.js file is inside src folder and inside pages folder.
+
+For the production build type `yarn build`, a build folder will appear. You can publish the website, now with this folder.
