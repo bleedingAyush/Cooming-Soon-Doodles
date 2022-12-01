@@ -1,6 +1,6 @@
 # Cooming-Soon-Doodles
 
-Download the project first. 
+Download the project first. [Download](https://github.com/bleedingAyush/Cooming-Soon-Doodles/archive/refs/heads/main.zip) 
 
 
 Then install yarn `npm install --global yarn`
